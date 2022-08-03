@@ -1,0 +1,32 @@
+[
+  {
+    "password": "admin",
+    "is_superuser": true,
+    "username": "admin",
+    "is_staff": true,
+    "is_active": true,
+    "first_name": "admin",
+    "last_name": "admin",
+    "email": "admin@admin.local"
+  },
+  {
+    "password": "test_1",
+    "is_superuser": false,
+    "username": "test_1",
+    "is_staff": true,
+    "is_active": true,
+    "first_name": "test_1",
+    "last_name": "test_1",
+    "email": "test_1@admin.local"
+  },
+  {
+    "password": "test_2",
+    "is_superuser": false,
+    "username": "test_2",
+    "is_staff": false,
+    "is_active": true,
+    "first_name": "test_2",
+    "last_name": "test_2",
+    "email": "test_2@admin.local"
+  }
+]
