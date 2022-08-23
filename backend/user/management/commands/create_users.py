@@ -1,13 +1,13 @@
 from django.core.management.base import BaseCommand
 
-from user.utils import load_from_json
-from user.models import User
+from backend.user.utils import load_from_json
+from backend.user.models import User
 
 
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
-        users = load_from_json('user/fixtures/users.json')
+        users = load_from_json('backend/user/fixtures/users.json')
         for user in users:
             created_user = User(
                 username=user['username'],
