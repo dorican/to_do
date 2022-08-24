@@ -28,3 +28,9 @@ class ToDo(models.Model):
     is_updated = models.DateTimeField('Обновлено', auto_now_add=False, auto_now=True)
     is_active = models.BooleanField('Активно', default=True)
 
+    class Meta:
+        verbose_name = 'Заметка'
+        verbose_name_plural = 'Заметки'
+
+    def __str__(self):
+        return f'Заметка id {self.id} к проекту {self.project.title}'
