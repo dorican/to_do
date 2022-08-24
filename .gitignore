@@ -11,6 +11,8 @@ media/images/*
 backend/user/migrations/*
 !backend/user/migrations/__init__.py
 !backend/user/fixtures/users.json
+backend/todo/migrations/*
+!backend/todo/migrations/__init__.py
 
 
 # Byte-compiled / optimized / DLL files
