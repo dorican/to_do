@@ -1,13 +1,18 @@
 *.json
+!frontend/package.json
+!frontend/package-lock.json
+!frontend/public/manifest.json
 .idea
 db.sqlite3
-config/local_settings
+backend/config/local_settings
 media/*
 media/logo
 media/images/*
-user/migrations/*
-!user/migrations/__init__.py
-!user/fixtures/users.json
+backend/user/migrations/*
+!backend/user/migrations/__init__.py
+!backend/user/fixtures/users.json
+backend/todo/migrations/*
+!backend/todo/migrations/__init__.py
 
 
 # Byte-compiled / optimized / DLL files
